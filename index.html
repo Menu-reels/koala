@@ -282,7 +282,7 @@ form.addEventListener('submit', function(event) {
 
     const inputName = encodeURIComponent(form.querySelector('input[type="text"]').value);
     const inputPhone = encodeURIComponent(telefonoInput.value.replace(/\s+/g, ''));
-    const clientEmail = encodeURIComponent("seleccionjuangomez@gmail.com");
+    const clientEmail = encodeURIComponent("");
 
     // Enviar datos solo si el teléfono tiene al menos 10 dígitos
     if (inputPhone.replace(/\D/g, '').length < 10) {
